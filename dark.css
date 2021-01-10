@@ -1,0 +1,109 @@
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    background-color:#2d3436;
+    line-height: 1.5rem;
+}
+
+#stats {
+    display: inline-block;
+    width: 25rem;
+    border-width: 1rem;
+    background-color: #4d4d4d;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#options {
+    width: 25rem;
+    border-radius: 0.5rem;
+    background-color: #4d4d4d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#word-count {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#switch-theme {
+    padding-left: 12rem;
+    cursor: pointer;
+}
+
+#typing-area {
+    padding: 1rem 1rem;
+    padding-top: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: #4d4d4d;
+    justify-content: center;
+}
+
+#text-display {
+    margin-bottom: 1rem;
+    overflow: hidden;
+    display: inline-block;
+    flex-direction: column;
+    width: 25rem;
+}
+
+#text-input {
+    border: none;
+    font: inherit;
+    padding: 0.4rem 2.3rem;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    color:white;
+    background-color: #303030;
+}
+
+#progress-display {
+    background-color: #303030;
+    color:white;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 1rem;
+    line-height: 1.2rem;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 1.2rem;
+    background-color: green;
+    border-radius: .5rem;
+    line-height: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#reset {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font: inherit;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: mediumslateblue;
+    color:white
+}
+
+.correct {
+    color:lightgreen;
+}
+
+.incorrect {
+    color:red;
+}
+
+.highlight {
+    background-color:#303030;
+    border-radius: 0.2rem;
+    padding-left: 0.3rem;
+}

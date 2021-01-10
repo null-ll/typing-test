@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>typing test</title>
+        <link rel="stylesheet" href="light.css" />
+    </head>
+    <body>
+        <h2 id="header">typing test</h2>
+        <div id="display">
+            <div id="stats">
+                <div id="wpm-display">wpm: </div>
+                <div id="accuracy-display">accuracy: </div>
+            </div>
+            <div id="options">
+                word count:
+                <div id="word-count">
+                    <span id="word-count-10" onclick="setWordCount(10)">10</span>
+                    <span id="word-count-25" onclick="setWordCount(25)">25</span>
+                    <span id="word-count-50" onclick="setWordCount(50)">50</span>
+                    <span id="word-count-100" onclick="setWordCount(100)">100</span>
+                </div>
+                <span id="switch-theme" onclick="switchTheme()">🌚</span>
+            </div>
+            <div id="typing-area">
+                <div id="progress-display">
+                    <div id="progress-bar"></div>
+                </div>
+                <div id="text-display"></div>
+                <div id="bar">
+                    <input id="text-input" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" />
+                    <button id="reset" onclick="reset()">
+                        reset
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
